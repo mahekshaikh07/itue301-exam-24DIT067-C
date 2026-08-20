@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config({ path: "../.env" });
 const connectDB = require("./config/db");
 const Patient = require("./models/Patient");
 
